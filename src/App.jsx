@@ -19,6 +19,7 @@ const initialState = { count:0 };
 
     return(
       <>
+        <h1>Luke</h1>
         <p>{state.count}</p>
         <button onClick={()=>dispatch({type:"increment"})}>+</button>
         <button onClick={()=>dispatch({type:"decrement"})}>-</button>
