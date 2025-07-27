@@ -1,0 +1,40 @@
+table{
+  width:400px;
+  background-color: cornsilk;
+  border: 3px solid black;
+}
+
+td{
+  padding:3px;
+  border:2px solid black;
+}
+th{
+  background-color: cornflowerblue;
+  column-span: 3px;
+}
+.Luke{
+  color: aliceblue;
+  background-color: cornflowerblue;
+  margin-top: 0px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px gray;
+}
+.picture{
+ display:flex;
+}
+.photo{
+  border-radius:50%;
+  max-width: 90%;
+  margin: 10px;
+  float:left;
+  margin-right: 40px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid red;
+  margin: 20px 0;
+}
+
+  

@@ -1,5 +1,6 @@
 import { useReducer } from "react";
-import "./App.css"
+import "./App.css";
+import HomePage from './pages/HomePage';
 
 function reducer(state, action){
   switch (action.type){
@@ -19,6 +20,7 @@ const initialState = { count:0 };
 
     return(
       <>
+        <HomePage />
         <h1>Luke</h1>
         <p>{state.count}</p>
         <button onClick={()=>dispatch({type:"increment"})}>+</button>
