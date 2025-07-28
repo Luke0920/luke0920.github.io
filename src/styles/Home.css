@@ -20,15 +20,16 @@ th{
   border-radius: 10px;
   box-shadow: 5px 5px 30px gray;
 }
-.picture{
- display:flex;
-}
+
 .photo{
   border-radius:50%;
   max-width: 90%;
   margin: 10px;
-  float:left;
   margin-right: 40px;
+}
+
+.photo-wrapper {
+  display:flex;
 }
 
 hr {
@@ -37,4 +38,26 @@ hr {
   margin: 20px 0;
 }
 
-  
+.navbar {
+  background-color: #f5f5f5;
+}
+.nav-list {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style:circle;
+justify-content: center;
+}
+
+  body {
+    background-image: url("../../tupac.jpg"); /* 靜態圖片路徑 */
+    background-size: cover;
+    background-position: center;
+  }
+ul{
+  color: aqua;
+}
+p{
+  color: aqua;
+}
