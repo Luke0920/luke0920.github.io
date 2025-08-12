@@ -55,7 +55,7 @@ const HomePage = () => {
 
       {/* 🎓 學歷 */}
       <section>
-        <h2>學歷</h2>
+        <h2>Experience</h2>
         <ul>
           <li>淡江大學 資訊工程學系（2021/9 ~ 2024/5）</li>
           <li>Indiana University of Pennsylvania, U.S.A. — Computer Science（2023/9 ~ 2024/5）</li>
