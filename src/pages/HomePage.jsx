@@ -41,7 +41,7 @@ const HomePage = () => {
         <img className="photo" src={LukePhoto} height="250" width="200" alt="Luke" />
         {/* 👤 基本資料 */}
         <section>
-        <h2>Basic Info</h2>
+        <h2>Basic Information</h2>
         <ul>
           <li>姓名：鄭宇謙（Luke Cheng）</li>
           <li>年齡：23 歲（2025 年）</li>
