@@ -74,7 +74,7 @@ const HomePage = () => {
 
       {/* 🛠 技能 */}
       <section>
-        <h2>技能與專長</h2>
+        <h2>Skills</h2>
         <ul>
           <li>HTML5, CSS3, JavaScript</li>
           <li>React 基本使用</li>
